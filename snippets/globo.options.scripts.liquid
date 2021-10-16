@@ -1,0 +1,58 @@
+<script>
+  var Globo = Globo || {}
+  Globo.Options = Globo.Options || {}
+  Globo.Options.url = "https://option.globosoftware.net"
+  Globo.Options.themeInfo = {"id":117443035292,"name":"Debut (developer)","role":"main","theme_store_id":796,"theme_name":"Debut","theme_version":"17.9.0"}
+  {% raw %}
+  Globo.Options.shop = {
+    id : 4062,
+    settings: {"price":{"seperator":null,"show_for_input":false,"show_for_option":false,"label_addon":"(+ {{addon}})","hide_additional_payment_button":true},"translation":{"selection_will_add":"Selection will add {{addon}} to the price","custom_product_name":"{{product_title}} - Selections"}},
+    pricing: {
+      features: {
+        fileUpload: 2,
+        removeCopyright: false
+      }
+    }
+  }
+  {% endraw %}
+  
+  Globo.Options.money_format = "{{ shop.money_format | replace: '"', "'" }}";
+  {% if product %}
+    Globo.Options.product = {{ product | json }}
+    Globo.Options.product.collections = {{ product.collections | map: 'id' | json }}
+  {% endif %}
+  {% if customer %}
+    Globo.Options.customer = {
+      id: '{{ customer.id }}',
+      name: '{{ customer.name }}',
+      email: '{{ customer.email }}'
+    }
+  {% endif %}
+  {% if cart %}
+    Globo.Options.cart = {{ cart | json }}
+  {% endif %}
+  Globo.Options.page = {
+    title: document.title,
+    href: window.location.href,
+    type: '{{request.page_type}}'
+  }
+  
+  Globo.Options.options = []
+</script>
+{% render 'globo.options.data.11132' %}
+<style>
+  [data-gpo-is-enabled="true"][data-gpo-cart-hide-additional-payment-button="true"] [data-shopify="dynamic-checkout-cart"],
+  [data-gpo-is-enabled="true"][data-gpo-product-hide-additional-payment-button="true"] [data-shopify="payment-button"],
+  .gpo-original-shopify-button {
+    display: none !important;
+  }
+  .gpo-original-checkout-button {
+    display: none !important;
+  }
+</style>
+{% capture GPO_appScript %}{{ 'globo.options.index.js' | asset_url }}{% endcapture %}
+{% assign GPO_assetsPath = GPO_appScript | split: 'globo.options.index.js' | first %}
+<script>
+  Globo.Options.__webpack_public_path__ = "{{ GPO_assetsPath }}globo.options."
+</script>
+<script src="{{GPO_appScript}}" async></script>

@@ -1,0 +1,5 @@
+# password keys
+config.yml/
+
+# other
+.DS_Store

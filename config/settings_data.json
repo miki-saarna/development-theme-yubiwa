@@ -1,0 +1,795 @@
+{
+  "current": {
+    "color_button": "#59756f",
+    "color_small_button_text_border": "#3a3a3a",
+    "color_image_overlay": "#685858",
+    "image_overlay_opacity": 20,
+    "color_body_bg": "#ffffff",
+    "type_header_font": "arapey_n4",
+    "type_header_base_size": 31,
+    "type_base_font": "arapey_n4",
+    "type_base_size": 17,
+    "share_facebook": true,
+    "share_twitter": false,
+    "share_pinterest": true,
+    "social_facebook_link": "https:\/\/www.facebook.com\/Yubiwa-Rings-343709580052612",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/yubiwaservice\/_created\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/yubiwarings\/",
+    "favicon": "shopify:\/\/shop_images\/apple-touch-icon.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/YUBIWA-5.jpg",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_input_background_color_mode": "white",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/YUBIWA-5.jpg",
+          "logo_max_width": 250,
+          "main_linklist": "main-menu",
+          "message": true,
+          "home_page_only": true,
+          "message_text": "Free U.S. Shipping | Free Worldwide Shipping on All Rings!",
+          "message_link": "",
+          "color_bg": "#cbd5cc",
+          "color_text": "#000000"
+        }
+      },
+      "hero-1": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/pexels-jasmine-carter-888899.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "title": "The Ethical Jewelry of the Future",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "settings": {
+          "layout": "left",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": ""
+        }
+      },
+      "feature-columns": {
+        "type": "feature-columns",
+        "blocks": {
+          "feature-columns-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/andre-jackson-IXLS59CTgDE-unsplash_1.jpg",
+              "title": "",
+              "text": "",
+              "button_label": ""
+            }
+          },
+          "feature-columns-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/File_002.jpg",
+              "title": "",
+              "text": "",
+              "button_label": ""
+            }
+          },
+          "feature-columns-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/joseph-pearson-QvF-T9Mib9I-unsplash.jpg",
+              "title": "",
+              "text": "",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "feature-columns-1",
+          "feature-columns-0",
+          "feature-columns-2"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "left"
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "settings": {
+          "title": "Featured Engagement Rings",
+          "collection": "featured-collection-moissanite-rings",
+          "grid": 4,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "quotes": {
+        "type": "quotes",
+        "disabled": true,
+        "blocks": {
+          "quotes-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Yubiwa offered a ring I never thought could be so beautiful at a price so reasonable.<\/p>",
+              "author": "John O'Connor"
+            }
+          },
+          "quotes-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>They were there every step of the way to offer flexibility in exchanging and ensure the ring still came on time.<\/p>",
+              "author": "Brian Angelino"
+            }
+          },
+          "quotes-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Yubiwa played a big role in making a dream I thought impossible to become a wonderful reality with my fiancé.<\/p>",
+              "author": "Kai Hernandez"
+            }
+          },
+          "303c5b14-bad3-4698-850e-de28e6526014": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          }
+        },
+        "block_order": [
+          "quotes-0",
+          "quotes-1",
+          "quotes-2",
+          "303c5b14-bad3-4698-850e-de28e6526014"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "image-bar": {
+        "type": "image-bar",
+        "disabled": true,
+        "blocks": {
+          "image-bar-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/andre-jackson-IXLS59CTgDE-unsplash_1.jpg",
+              "alignment": "center",
+              "cta_label": ""
+            }
+          },
+          "image-bar-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/taylor-brandon-rNnoXb3Zq7g-unsplash.jpg",
+              "alignment": "center",
+              "cta_label": ""
+            }
+          },
+          "5ea23aaf-c97b-4a24-8cd9-e16e0678257d": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/joseph-pearson-QvF-T9Mib9I-unsplash.jpg",
+              "alignment": "center",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "image-bar-0",
+          "image-bar-1",
+          "5ea23aaf-c97b-4a24-8cd9-e16e0678257d"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "title": "Quick Links",
+              "menu": "footer"
+            }
+          },
+          "bb4f4118-d3dc-4c5e-b0f1-d9fa4213e06a": {
+            "type": "text",
+            "settings": {
+              "title": "YUBIWA Customer Service",
+              "text": "<p>+1 720 295 7484          |   Support@YubiwaRings.com <\/p><p>Business Hours: 10:00 AM - 5:00 PM (U.S. Pacific) | Las Vegas, NV<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "bb4f4118-d3dc-4c5e-b0f1-d9fa4213e06a"
+        ],
+        "settings": {
+          "show_payment_icons": false,
+          "color_footer_bg": "#f6f6f6",
+          "color_footer_text": "#333232",
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 4,
+          "rows": 8,
+          "show_collection_image": false,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": true,
+          "show_vendor": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_vendor": false
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": true
+        }
+      },
+      "1612406582bd14a04e": {
+        "type": "collection-list",
+        "disabled": true,
+        "blocks": {
+          "1612406582bd14a04e-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "moissanite-necklace"
+            }
+          },
+          "1612406582bd14a04e-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "moissanite-earrings"
+            }
+          },
+          "1612406582bd14a04e-2": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "engagement-rings-moissanite-plus-cd"
+            }
+          },
+          "fc6391dc-095e-4a16-9ff3-7424642a944a": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "womens-fashion-jewelry"
+            }
+          }
+        },
+        "block_order": [
+          "1612406582bd14a04e-1",
+          "1612406582bd14a04e-0",
+          "1612406582bd14a04e-2",
+          "fc6391dc-095e-4a16-9ff3-7424642a944a"
+        ],
+        "settings": {
+          "title": "Shop by category",
+          "grid": 4
+        }
+      },
+      "1614375325c9ff8c45": {
+        "type": "collection",
+        "disabled": true,
+        "settings": {
+          "title": "Wedding Bands Collection",
+          "collection": "wedding-bands",
+          "grid": 4,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "16154927030cc65eb2": {
+        "type": "collection",
+        "settings": {
+          "title": "Featured Gifts for Her",
+          "collection": "featured-collection",
+          "grid": 4,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "16262131464f31ab43": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/a-couple-laughing-and-relaxing-together-on-their-couch.jpg",
+          "layout": "left",
+          "title": "Share Your Story!",
+          "text": "<p><em>Everyone has a story to share. <\/em>Whether it was a gift for anniversary, friend's birthday, for yourself, or even proposal, we are very honored to be the one to express your appreciation to loved ones! <\/p><p>If you would like to participate, please submit the form below with a couple of pictures. Your story might be featured on our website!<\/p><p><\/p><p><a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScuAaVSAiun1QkH_yt89E51_eGPzKMKtWvLnCr7fF-dExPRaQ\/viewform?usp=sf_link\" target=\"_blank\" title=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScuAaVSAiun1QkH_yt89E51_eGPzKMKtWvLnCr7fF-dExPRaQ\/viewform?usp=sf_link\">SHARE NOW<\/a><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "162671451543902b18": {
+        "type": "feature-row",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screen_Shot_2021-07-19_at_12.12.32.png",
+          "layout": "left",
+          "title": "Maintaining the Highest Standard of Quality and Beauty.",
+          "text": "<p>All while offering some of the most competitive pricing available. <\/p>",
+          "button_label": "Photo gallery",
+          "button_link": "shopify:\/\/pages\/test"
+        }
+      },
+      "16299092348b4bf187": {
+        "type": "feature-row",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Untitled_design_244e0b23-c970-49a8-b0c8-c95c651e7e35.png",
+          "layout": "left",
+          "title": "Moissanite Certificate",
+          "text": "<p>YUBIWA is committed to ensuring the highest-quality of Moissanite used in our jewelry. Learn more about GRA and the categories of Moissanite inspection. <\/p>",
+          "button_label": "Learn More",
+          "button_link": "shopify:\/\/pages\/moissanite-certificate"
+        }
+      },
+      "16299145290648b7cb": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/IMG_6497.jpg",
+          "layout": "left",
+          "title": "",
+          "text": "<p>Check out our full collection of Gifts for Her today - comes in a gift box that is ready to surprise your partner. <\/p>",
+          "button_label": "Shop gifts",
+          "button_link": "shopify:\/\/collections\/new-arrivals-1"
+        }
+      },
+      "1629915828c9e7edf9": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/IMG_6296.jpg",
+          "layout": "right",
+          "title": "",
+          "text": "<p>Choose Moissanite, an ethical and conflict-free gemstone, for your engagement. We are committed to providing you the best possible customer support to ensure your satisfaction. <\/p>",
+          "button_label": "shop now",
+          "button_link": "shopify:\/\/collections\/moissanite-engagement-rings"
+        }
+      },
+      "16305422291c8046fa": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/jeremy-bishop-vyiDIiYELlE-unsplash.jpg",
+          "layout": "left",
+          "title": "Blog: Marriage Proposal - A Once in a Lifetime Experience",
+          "text": "",
+          "button_label": "Read Now",
+          "button_link": "shopify:\/\/blogs\/news\/marriage-proposal-a-once-in-a-lifetime-experience"
+        }
+      }
+    },
+    "content_for_index": [
+      "hero-1",
+      "16154927030cc65eb2",
+      "16299145290648b7cb",
+      "collection",
+      "1629915828c9e7edf9",
+      "162671451543902b18",
+      "1614375325c9ff8c45",
+      "1612406582bd14a04e",
+      "16299092348b4bf187",
+      "16305422291c8046fa",
+      "16262131464f31ab43"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "hero-1": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "text_size": "large"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_vendor": false,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {}
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {}
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}
